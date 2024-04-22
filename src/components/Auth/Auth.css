@@ -1,0 +1,51 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* light gray background */
+  }
+  
+  .card {
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* add border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2); /* add shadow */
+    width: 300px; /* set width */
+    margin: 0 auto; /* center horizontally */
+    padding: 20px; /* add padding */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign-in-text {
+    font-size: calc(1.2rem + 0.4vw);
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* dark gray text */
+  }
+  
+  .google-sign-in-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285F4; /* google blue */
+    color: #fff; /* white text */
+    font-size: calc(1.1rem + 0.3vw);
+    cursor: pointer;
+  }
+  .google-sign-in-btn:hover {
+    background-color: #357AE8;
+  }
+  
