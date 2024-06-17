@@ -29,5 +29,5 @@ Getting Started
 
 Author
 
-[Dev Bhardwaj]
+Dev Bhardwaj
 
